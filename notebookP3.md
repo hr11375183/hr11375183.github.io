@@ -14,20 +14,22 @@
 
 ### Key Terms and Definitions
 
-| Term             | Definition                                      | Example / Notes                          |
-|------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |                                                  |                                           |
-| MaterialApp      |                                                  |                                           |
-| Scaffold         |                                                  |                                           |
-| StatelessWidget  |                                                  |                                           |
-| StatefulWidget   |                                                  |                                           |
-| Navigator        |                                                  |                                           |
-| AppBar           |                                                  |                                           |
-| Column           |                                                  |                                           |
-| Row              |                                                  |                                           |
-| Container        |                                                  |                                           |
-| Text             |                                                  |                                           |
-| Image.network    |                                                  |                                           |
+| Term             | Definition                                                       | Example / Notes                           |
+|------------------|------------------------------------------------------------------|-------------------------------------------|
+| Widget           | basic building block of a Flutter app. Everything is a widget    | Text, Image, Container, Colum             |
+| MaterialApp      |The root of the app. sets up routes and themes                    | Found in main.dart                        |
+| Scaffold         | Povides basic visual layout-like a header, body, floating button | Each screen uses it                       |
+| StatelessWidget  | predefined paths to navigate between screens                     | '/'.'/pae3'.' , ect                       |
+| StatefulWidget   | Manages screen translations                                      | Navigater.pushNamed(context, '/page2');   |
+| Navigator        | A widget that can chage over time                                | Used in MyHomePage()                      |
+| AppBar           | Top navigation bar                                               | Most of the screen files                  |
+| Column           | vertical layout                                                  | Title of each page appears here           |
+| Row              | horizontal layout                                                | Found in Main.dart                        |
+| Container        | wraps content with padding, margin, or color                     |                                           |
+| Text             | display text                                                     |                                           |
+| Image.network    | displays images form a URL                                       |                                           |
+| Padding          | adds space around a wiget                                        |                                           |
+| Center           | centers its child                                                |                                           |
 
 ---
 
