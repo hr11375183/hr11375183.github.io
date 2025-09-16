@@ -47,15 +47,15 @@
 | Function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
 | Paraeter| The information passed into a function to change how it works. | `greet(String name)` |  |  |
 | Return | The result a function gives back. | `return total;` |  |  |
-| Scope | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
-|Class| Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
-|Object| A specific version of a class. | `Dog myDog = Dog();` |  |  |
+| Scope | Where a variable or function can be used. | (No set syntax — concept-based) |shcool id  |  |
+|Class| Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |Everything  |  |
+|Object| A specific version of a class. | `Dog myDog = Dog();` |templet for building/Blueprint  |  |
 |Property | A variable that belongs to a class/object. | `String name;` |  |  |
 | Method| A function that belongs to a class. | `void bark() {}` |  |  |
-|Constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-|Abstaction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
-|Override | Changing how a built-in or inherited function behaves. | `@override` |  |  |
-|Void| A function that does not return a value. | `void printMessage() {}` |  |  |
+|Constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` |somehing that requres information to be built |  |
+|Abstaction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |Hides details but shows the output |  |
+|Override | Changing how a built-in or inherited function behaves. | `@override` |changes the built in of a charater  |  |
+|Void| A function that does not return a value. | `void printMessage() {}` |someting that happens that you dont get anything back from  |  |
 
 ---
 
