@@ -57,7 +57,7 @@
 |Constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` |somehing that requres information to be built |  |
 |Abstaction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |Hides details but shows the output |  |
 |Override | Changing how a built-in or inherited function behaves. | `@override` |changes the built in of a charater  |  |
-|Void| A function that does not return a value. | `void printMessage() {}` |someting that happens that you dont get anything back from  |  |
+|Void| A function that does not return a value. | `void printMessage() {}` |someting that happens that you dont get anything back from  |MyPortfolioApp|
 
 ---
 
@@ -69,7 +69,7 @@
 
 |main()| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
 |MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
-|Scaffold| A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
+|Scaffold| A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |return Scaffold(body: Column( mainAxisAlignment: MainAxisAlignment.start, children: [|
 |Column| A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
 |Row| A widget that shows things side-by-side. | `Row(...)` |  |  |
 |Container| A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |backouk of an containor |  |
