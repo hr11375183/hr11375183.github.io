@@ -79,16 +79,16 @@
 |onPressed| The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
 |StatelessWidget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |information |  |
 |Navigator| A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |helps you move throw something|  |
-|@override| Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
-|build()| Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
-|BuildContext| Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
+|| Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+|padding| Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
+|Center| Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
 |super.key| Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
-|const| This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
-|     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
-|     | Required in every widget class to describe what to show. | `build` |  |  
-|    | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-|      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
-|     | A keyword that means the value won't change and is set once. | `const` |  |  |
+|@override| This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
+|build| The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+|build| Required in every widget class to describe what to show. | `build` |when you print out a design you created |  
+|Build-context| A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
+|super.key| A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+|cosnt| A keyword that means the value won't change and is set once. | `const` |  |  |
 
 
 ## Markdown Style Guide for Coding Notebooks
