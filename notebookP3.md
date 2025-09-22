@@ -48,7 +48,7 @@
 | Null     | A special value that means “nothing.” | `String? name = null;` |  |  |
 | Function | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
 | Paraeter | The information passed into a function to change how it works. | `greet(String name)` |  |  |
-| Return | The result a function gives back. | `return total;` |  |  |
+| Return | The result a function gives back. | `return total;` |  |Scaffold(|
 | Scope | Where a variable or function can be used. | (No set syntax — concept-based) |shcool id  |  |
 |Class| Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |Everything  |  |
 |Object| A specific version of a class. | `Dog myDog = Dog();` |templet for building/Blueprint  |  |
